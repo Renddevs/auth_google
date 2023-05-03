@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul>
+    @if (Context.User.Identity.IsAuthenticated)
+    {
+        <div class="text-center" style="margin-top: 100px;">
+            <img src="@User.Claims.ToArray()[5].Value" class="rounded" alt="...">
+        </div>
+        <div class="text-center mt-5">
+            <h3 class="display-5">Welcome @User.Identity.Name</h3>
+            <p>Logout here <a asp-area="" asp-controller="Home" asp-action="Logout">Logout</a>.</p>
+        </div>
+    }else
+    {
+        <div class="text-center">
+            <h1 class="display-4">Hello Stranger...</h1>
+            <p>Login with your google account here <a asp-area="" asp-controller="Home" asp-action="Login">Login</a>.</p>
+        </div>
+    }
+</ul>

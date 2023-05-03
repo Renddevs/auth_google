@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AXcy28pJDhCGHsUWP9Do3GBEZao5vNyJ3izuUwcvJIljY3adCmddgB+uXow3asrlNgfUqpaSazgoqGriTd9uLQ==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\AuthUseGoogleAccount\\AuthUseGoogleAccount\\AuthUseGoogleAccount.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MIT\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.16\\microsoft.aspnetcore.authentication.google.6.0.16.nupkg.sha512",
+    "C:\\Users\\MIT\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
